@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment</title>
+    <style>
+        .product {
+    display: flex;
+    align-items: center;
+}
+
+.color-swatch {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.color-swatch[data-color="red"] {
+    background-color: red;
+}
+
+.color-swatch[data-color="blue"] {
+    background-color: blue;
+}
+/* Add styles for other colors */
+
+    </style>
+</head>
+<body>
+    <div class="product">
+        <img src="product-image.jpg" alt="Product Image">
+        <div class="color-options">
+            <div class="color-swatch" data-color="red"></div>
+            <div class="color-swatch" data-color="blue"></div>
+            <!-- Add more swatches for different colors -->
+        </div>
+    </div>
+    
+</body>
+</html>
